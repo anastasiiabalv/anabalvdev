@@ -19,17 +19,25 @@
       ]"
       :shots="[
         {
-          src: 'examples/fx_1.webp',
-          alt: 'FX-ATS monitor dashboard',
+          src: 'examples/fx_monitor.webp',
+          alt: 'FX-ATS monitor: one account with its gain chart and stats',
           caption: 'Monitor: equity curve, balance and period gains'
         },
-        { src: 'examples/fx_2.webp', alt: 'FX-ATS landing page', caption: 'Marketing site' },
         {
-          src: 'examples/fx_3.webp',
-          alt: 'FX-ATS strategy overview',
-          caption: 'Strategy overview with live performance'
+          src: 'examples/fx_accounts.webp',
+          alt: 'FX-ATS monitor: accounts as chart cards',
+          caption: 'All accounts at a glance as live chart cards'
         },
-        { src: 'examples/fx_4.webp', alt: 'FX-ATS account connection', caption: 'Connecting a trading account' }
+        {
+          src: 'examples/fx_analytics.webp',
+          alt: 'FX-ATS monitor: monthly analytics and traded instruments',
+          caption: 'Monthly analytics and traded instruments'
+        },
+        {
+          src: 'examples/fx_whitebit.webp',
+          alt: 'FX-ATS monitor: monitoring link for a WhiteBIT account',
+          caption: 'Read-only monitoring link for a WhiteBIT account'
+        }
       ]"
       reverse />
 
