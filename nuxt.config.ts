@@ -38,6 +38,10 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     resend_mail: process.env.RESEND_MAIL,
-    resend_api: process.env.RESEND_API_KEY
+    resend_api: process.env.RESEND_API_KEY,
+    public: {
+      // Metricool web analytics: tracker hash of the anabalvdev brand, empty = off
+      metricoolHash: 'a26e684ee7cae1f2f951f4f081a6d049'
+    }
   }
 })
