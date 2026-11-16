@@ -3,7 +3,7 @@
     <CaseStudy
       label="Case study 01"
       title="FX-ATS"
-      role="Founding software engineer"
+      role="Head of FX-ATS Dev"
       logo="logo-fxats.svg"
       description="The in-house technology behind FX-ATS Group: trading infrastructure, real-time account monitoring and the web tools the team and clients use every day. I designed and built the whole system myself."
       :built="[
@@ -45,7 +45,7 @@
       label="Case study 02"
       title="Trade copier"
       role="MT4 ⇄ MT5 copying system"
-      description="A high-speed copier that moves trades between MT4 and MT5 in every direction, in under a second, across many accounts at once. Built for live trading and refined over years of real use: from a DLL socket bridge to an AES-encrypted API."
+      description="A high-speed copier that moves trades between MT4 and MT5 in every direction, in under a second, across many accounts at once. Built for live trading and refined in real use: from a DLL socket bridge to an AES-encrypted API."
       :built="[
         'Copier core in MQL4/5 with a high-load algorithm that keeps signals fast during volatile markets',
         'Desktop management console (PyQt5) with real-time alerts and one-click disconnect of any account from the master',
