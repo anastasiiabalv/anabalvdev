@@ -1,7 +1,7 @@
 <template>
   <section id="services" class="section-pad">
     <p class="eyebrow mb-4">Services</p>
-    <h2 class="section-title mb-12">What you can hire me for</h2>
+    <h2 class="section-title mb-12">What I build</h2>
     <div class="grid grid-cols-[repeat(auto-fit,minmax(min(100%,420px),1fr))] gap-5">
       <div v-for="service in services" :key="service.title" class="card">
         <h3 class="m-0 text-xl leading-[1.4] font-semibold">{{ service.title }}</h3>
@@ -21,7 +21,7 @@ const services = [
     items: [
       'Live account and strategy analytics',
       'Investor-facing performance pages',
-      'Payment integrations (PayU API)'
+      'Payment integrations (PayU, Autopay)'
     ]
   },
   {
