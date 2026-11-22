@@ -8,7 +8,8 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       { name: 'Geist Mono', provider: 'google' },
-      { name: 'Inter', provider: 'google' }
+      // 300: the /stack lead is Inter Light
+      { name: 'Inter', provider: 'google', weights: ['300 700'] }
     ]
   },
   // no IPX: the VPS CPU can't run sharp, so photos are pre-sized WebP files in public/ served as they are
