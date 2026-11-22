@@ -49,7 +49,7 @@ usePageSeo({
 const groups = [
   { name: 'Front-end', items: ['Nuxt', 'Vue.js', 'Pinia', 'Tailwind CSS', 'TypeScript'], accent: true },
   { name: 'Back-end', items: ['NestJS', 'TypeORM', 'Redis', 'MongoDB', 'MySQL'] },
-  { name: 'Trading', items: ['MQL4 / MQL5', 'MetaTrader', 'Python', 'Binance API', 'WhiteBIT API'] },
+  { name: 'Trading', items: ['MQL4 / MQL5', 'MetaTrader', 'Python', 'Exchange APIs', 'Strategy Tester'] },
   { name: 'Infra', items: ['Ubuntu VPS', 'Nginx', 'Docker', 'GitHub Actions', 'PM2'] },
   { name: 'Design', items: ['Figma', 'After Effects', 'Photoshop', 'Illustrator', 'Canva'] }
 ]
